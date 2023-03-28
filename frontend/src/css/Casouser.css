@@ -1,0 +1,42 @@
+.row{
+  height: 255px;
+  width: auto;
+  padding: 2rem;
+}
+
+.titulo-Custom{
+text-align: center;
+}
+
+.img{
+  margin:0px auto;
+  border-radius:255px;
+  border: 1px solid #999;
+  padding:5px;
+  width:200px;
+  height:200px;
+  background-size: 250px 300px;
+  background-repeat:no-repeat;
+  background-size: cover;
+  
+  }
+.img img{
+  width: 100%;
+  height: 100%;
+  border-radius: 255px;
+}
+@media all and (min-width: 500px) and (max-width: 1000px)
+{  
+
+}
+.img img{
+   width:100%;
+}
+
+section.sec{
+  height: 350px;
+}
+Button.but{
+  border-radius: 255px;
+  background-color: red;
+}

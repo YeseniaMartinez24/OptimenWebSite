@@ -1,0 +1,19 @@
+
+.App-link {
+  color: #000000;
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  padding-top: 50px;
+}
+
+.textio {
+  text-align: center;
+  padding-left: 30%;
+  padding-right: 30%;
+  display: flex;
+  contain: layout;
+}
