@@ -1,3 +1,5 @@
+//Componente echo por Fernando 
+
 import React, { Fragment } from "react"; // Importa React y Fragment desde la biblioteca 'react'
 import "../../css/Casouser.css"; // Importa el archivo CSS para estilos personalizados
 

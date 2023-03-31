@@ -1,3 +1,5 @@
+//Componente echo por Yessenia
+
 import '../../css/services.css'; // importa el archivo CSS para estilos específicos de esta sección
 
 import React from 'react'; // importa la librería React

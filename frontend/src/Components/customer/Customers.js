@@ -1,3 +1,5 @@
+//Componente echo por fernando 
+
 // Importa la hoja de estilo Pag.css desde una ruta relativa
 import '../../css/Pag.css';
 

@@ -1,3 +1,5 @@
+//Componente echo por Carlos
+
 // Importar las dependencias y los archivos necesarios
 import React from 'react'; // React es una biblioteca de JavaScript para crear interfaces de usuario.
 import '../../css/innovation.css' // Se importa la hoja de estilos CSS correspondiente.

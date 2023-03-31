@@ -26,16 +26,16 @@ function Navbar() {
             <a href="/" className="nav-links">Home</a>
           </li>
           <li className="nav-item">
-            <a href="/" className="nav-links">About Us</a>
+            <a href="/About-Us" className="nav-links">About Us</a>
           </li>
           <li className="nav-item">
-            <a href="/" className="nav-links">Customers</a>
+            <a href="/Customers" className="nav-links">Customers</a>
           </li>
           <li className="nav-item">
-            <a href="/" className="nav-links">News</a>
+            <a href="/News" className="nav-links">News</a>
           </li>
           <li className="nav-item">
-            <a href="/" className="nav-links">Contact Us</a>
+            <a href="/Contact-Us" className="nav-links">Contact Us</a>
           </li>
         </ul>
       </div>

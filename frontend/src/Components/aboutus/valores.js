@@ -1,3 +1,5 @@
+//Componente echo por Yessenia
+
 // Importa React y algunos componentes de React Bootstrap
 import React from "react";
 import Card from 'react-bootstrap/Card';

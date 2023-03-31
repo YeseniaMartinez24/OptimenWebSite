@@ -1,5 +1,9 @@
+//Componente echo por Yessenia
+
 import { useState } from 'react'; // Importa el hook 'useState' de React
 import { Carousel } from 'react-bootstrap'; // Importa el componente Carousel de React Bootstrap
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Define el componente 'ControlledCarousel'
 function ControlledCarousel() {

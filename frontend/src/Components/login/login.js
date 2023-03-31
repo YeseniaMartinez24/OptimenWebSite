@@ -1,3 +1,5 @@
+//Componente echo por Abraham
+
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import "../../css/login.css"; // Importación del archivo CSS donde se encuentra la clase "login-container"

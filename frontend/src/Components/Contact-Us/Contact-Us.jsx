@@ -1,3 +1,5 @@
+//Componente echo por Abraham y Yessenia
+
 import React, { useState, useRef } from "react"; // Importamos React, useState y useRef desde React
 import "../../css/conctact.css"; // Importamos el archivo CSS para el formulario de contacto
 

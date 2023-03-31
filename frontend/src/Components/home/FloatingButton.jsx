@@ -1,3 +1,5 @@
+/*Componente echo por Abraham*/
+
 import React, { useContext, useState } from "react"; // Importa React, useContext y useState desde la biblioteca React
 import "../../css/FloatingButton.css"; // Importa el archivo CSS para dar estilo al componente
 import ES from "../../img/Home/espana.png"; // Importa la imagen de la bandera española

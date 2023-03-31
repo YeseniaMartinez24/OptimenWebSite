@@ -1,3 +1,5 @@
+//Componente echo por Abraham 
+
 import { useState } from 'react';
 import { Carousel } from 'react-bootstrap';
 

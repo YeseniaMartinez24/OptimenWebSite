@@ -1,3 +1,5 @@
+/*Componente echo por Itzel */
+
 import React from "react"; // Importa React
 import "../../css/certifications.css"; // Importa el archivo de estilo CSS de las certificaciones
 import esr from "../../img/Home/certifications/esr.png"; // Importa la imagen ESR

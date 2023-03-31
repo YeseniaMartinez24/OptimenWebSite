@@ -1,3 +1,5 @@
+//Componente echo por Abraham
+
 import React, { useState } from "react"; // Se importa React y useState desde la biblioteca React.
 import "../../css/news.css"; // Se importa un archivo CSS que contiene estilos para la lista de noticias.
 

@@ -1,3 +1,5 @@
+//Componente echo por Abraham
+
 import React, { useState } from "react";
 import '../../css/news.css';
 

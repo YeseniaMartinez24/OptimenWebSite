@@ -1,3 +1,5 @@
+/*Componente escho por itzel*/
+
 import React, { useContext } from "react";
 import uno from "../../img/Home/uno.png";
 import "../../css/home.css"; // Importa hoja de estilo externa
@@ -14,13 +16,13 @@ const Homes = () => {
       <img className="home-image" src={uno} alt="avión" />
       <div className="home-content">
         <h1 className="home-title anim-fade-in">
-          <FormattedMessage id="app.welcome" defaultMessage="Welcome" />
+          <FormattedMessage id="app.welcome" defaultMessage="Welcome to Optimen" />
           {/* El componente FormattedMessage se utiliza para internacionalizar cadenas de texto */}
         </h1>
         <p className="home-description anim-slide-up">
           <FormattedMessage
             id="app.Description"
-            defaultMessage="null"
+            defaultMessage="Unique team of Resources Management and Optimization Experts and passionate Software Developers."
           />
         </p>
       </div>
