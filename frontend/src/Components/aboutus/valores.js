@@ -1,14 +1,17 @@
+// Importa React y algunos componentes de React Bootstrap
 import React from "react";
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 
+// Importa algunas imágenes
 import ap1 from '../../img/AboutUs/airplane.png';
 import ap2 from '../../img/AboutUs/airplane2.png';
 import ap3 from '../../img/AboutUs/CABINA3.png';
-import {  FormattedMessage } from "react-intl";
 
+// Importa FormattedMessage de React-Intl
+import { FormattedMessage } from "react-intl";
 
-
+// Define la función "Valores"
 function Valores () {
     return(
         <div className='container' >

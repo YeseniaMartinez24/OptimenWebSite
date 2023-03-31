@@ -1,16 +1,16 @@
-import '../../css/services.css';
+import '../../css/services.css'; // importa el archivo CSS para estilos específicos de esta sección
 
-import React from 'react'
-import Card from 'react-bootstrap/Card';
+import React from 'react'; // importa la librería React
+import Card from 'react-bootstrap/Card'; // importa el componente Card de la librería React Bootstrap
 
-import Auditing from '../../img/servicio/1.png';
-import Consultancy from '../../img/servicio/2.png';
-import Implementation from'../../img/servicio/3.png';
-import Interfaces from '../../img/servicio/4.png';
-import Innovation from '../../img/servicio/5.png';
-import Business from '../../img/servicio/6.png';
+import Auditing from '../../img/servicio/1.png'; // importa la imagen de auditoría
+import Consultancy from '../../img/servicio/2.png'; // importa la imagen de consultoría
+import Implementation from'../../img/servicio/3.png'; // importa la imagen de implementación
+import Interfaces from '../../img/servicio/4.png'; // importa la imagen de desarrollo de interfaces
+import Innovation from '../../img/servicio/5.png'; // importa la imagen de innovación
+import Business from '../../img/servicio/6.png'; // importa la imagen de desarrollo de reglas de negocio
 
-const Services = () => {
+const Services = () => { // crea el componente Services como una función
     return (
       <div  >
           <h1 className='services-center' >Our Services</h1>

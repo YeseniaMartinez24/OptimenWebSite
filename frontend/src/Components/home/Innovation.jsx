@@ -1,13 +1,14 @@
-import React from 'react';
-import '../../css/innovation.css'
+// Importar las dependencias y los archivos necesarios
+import React from 'react'; // React es una biblioteca de JavaScript para crear interfaces de usuario.
+import '../../css/innovation.css' // Se importa la hoja de estilos CSS correspondiente.
 
-import hannover from '../../img/innovation/Hannover_Messe.png';
-import ana from '../../img/innovation/ana_avatar_XPrize.jpeg';
-import innovation from '../../img/innovation/innovation_hub_Optimen.png';
-import educate from '../../img/innovation/Educate_Optimen.png';
-import {  FormattedMessage } from "react-intl";
+import hannover from '../../img/innovation/Hannover_Messe.png'; // Se importa la imagen de la feria Hannover Messe.
+import ana from '../../img/innovation/ana_avatar_XPrize.jpeg'; // Se importa la imagen del concurso ANA Avatar XPrize.
+import innovation from '../../img/innovation/innovation_hub_Optimen.png'; // Se importa la imagen del centro de innovación de Optimen.
+import educate from '../../img/innovation/Educate_Optimen.png'; // Se importa la imagen de Educate Optimen.
+import { FormattedMessage } from "react-intl"; // Se importa la biblioteca de internacionalización React Intl para manejar los mensajes en varios idiomas.
 
-
+// Se define la lista de objetos 'cards' que contendrá información sobre los diferentes proyectos de innovación de la empresa.
 const cards = [
   {
     title: "Hannover Messe",
@@ -31,6 +32,7 @@ const cards = [
   },
 ];
 
+// Se define el componente de React llamado 'Innovation'.
 const Innovation = () => {
   return (
     <div className=''>

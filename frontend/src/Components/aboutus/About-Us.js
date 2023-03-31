@@ -1,13 +1,17 @@
-import { useState } from 'react';
-import { Carousel } from 'react-bootstrap';
+import { useState } from 'react'; // Importa el hook 'useState' de React
+import { Carousel } from 'react-bootstrap'; // Importa el componente Carousel de React Bootstrap
 
+// Define el componente 'ControlledCarousel'
 function ControlledCarousel() {
+  // Crea un estado 'index' y su función 'setIndex' a través del hook 'useState'
   const [index, setIndex] = useState(0);
 
+  // Define la función 'handleSelect' que actualizará el estado 'index' con el índice seleccionado
   const handleSelect = (selectedIndex) => {
     setIndex(selectedIndex);
   };
 
+  // Devuelve el componente Carousel de React Bootstrap con las imágenes y los títulos/captions
   return (
     <Carousel activeIndex={index} onSelect={handleSelect} interval={5000}>
       <Carousel.Item>
@@ -16,7 +20,6 @@ function ControlledCarousel() {
           src="https://cdn.pixabay.com/photo/2016/11/11/08/49/f-16-1816071_1280.jpg"
           alt="First slide"
           height="700px"
-          
         />
         <Carousel.Caption>
           <h3>First slide label</h3>
@@ -51,7 +54,6 @@ function ControlledCarousel() {
           </p>
         </Carousel.Caption>
       </Carousel.Item>
-      
     </Carousel>
   );
 }

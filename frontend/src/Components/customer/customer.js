@@ -1,22 +1,20 @@
-import React,{Fragment} from "react";
-import "../../css/Casouser.css";
+import React,{Fragment} from "react"; // Importa React y Fragment desde la biblioteca react
+import "../../css/Casouser.css"; // Importa el archivo CSS de estilo para el componente
 
-import InfiniteCarousel from "react-leaf-carousel";
+import InfiniteCarousel from "react-leaf-carousel"; // Importa el componente de carrusel de la biblioteca react-leaf-carousel
 
+import Button from 'react-bootstrap/Button'; // Importa el componente de botón de la biblioteca react-bootstrap
 
-import Button from 'react-bootstrap/Button';
-
-
-import uno from "../../img/customers/1.jpg";
-import dos from "../../img/customers/2.jpg";
-import tres from "../../img/customers/3.jpg";
-import cuatro from "../../img/customers/4.jpg";
-import cinco from "../../img/customers/5.jpg";
-import seis from "../../img/customers/6.jpg";
-import siete from "../../img/customers/7.jpg";
+import uno from "../../img/customers/1.jpg"; // Importa la imagen 1 desde la carpeta de imágenes
+import dos from "../../img/customers/2.jpg"; // Importa la imagen 2 desde la carpeta de imágenes
+import tres from "../../img/customers/3.jpg"; // Importa la imagen 3 desde la carpeta de imágenes
+import cuatro from "../../img/customers/4.jpg"; // Importa la imagen 4 desde la carpeta de imágenes
+import cinco from "../../img/customers/5.jpg"; // Importa la imagen 5 desde la carpeta de imágenes
+import seis from "../../img/customers/6.jpg"; // Importa la imagen 6 desde la carpeta de imágenes
+import siete from "../../img/customers/7.jpg"; // Importa la imagen 7 desde la carpeta de imágenes
 
 
-const Customers = () => {
+const Customers = () => { // Define el componente Customers como una función de flecha
     return(
         <Fragment>
             <section className="sec" style={{}}>

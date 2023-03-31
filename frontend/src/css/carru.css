@@ -1,69 +1,63 @@
-.body {
+.slider .slider-track {
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  height: auto;
-  background-color: #e3e3e3;
-}
-
-.slider {
-  position: relative;
-  margin: auto;
-  width: 100%;
-  max-width: 1000px;
-  height: 150px;
+  animation: scroll 35s linear infinite;
+  -webkit-animation: scroll 35s linear infinite;
+  width: calc(180px * 10); /* cambiar 240px por 180px para ajustar el tamaño de las imágenes /
+  overflow: hidden; / ocultar el desbordamiento de las imágenes */
+  }
+  
+  .slider .slide {
+  display: flex;
+  flex: 0 0 auto; /* ajustar el tamaño de las imágenes */
+  }
+  
+  .slider .slide img {
+  width: 180px;
+  height: 80px;
+  padding: 10px;
   background-color: white;
-  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
-  overflow: hidden;
-}
-
-.slider::before,
-.slider::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  width: 100px;
-  height: 100%;
-  background: linear-gradient(
-    to right,
-    rgba(255, 255, 255, 0) 0%,
-    rgba(255, 255, 255, 1) 100%
-  );
-}
-
-.slider::before {
-  left: 0;
-}
-
-.slider::after {
-  right: 0;
-  transform: scaleX(-1);
-}
-
-.slider .slide-track {
-  display: flex;
-  width: calc(250px * 17);
-  animation: scroll 95s linear infinite;
-}
-
-.slider .slide {
-  width: 250px;
-  height: 100px;
-}
-
-.carrusel-title {
-  text-align: center;
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #3159cf;
-  margin: 0;
-}
-
-@keyframes scroll {
+  cursor: pointer;
+  margin: 0 20px; /* agregar un margen horizontal de 20px para separar las imágenes */
+  border-radius: 8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+  rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  }
+  
+  @keyframes scroll {
   0% {
-    transform: translateX(0);
+  transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-250px * 8));
+  transform: translateX(calc(-180px * 10)); /* cambiar -240px por -180px para ajustar el tamaño de las imágenes */
   }
+  }
+
+.slider {
+  background-color: #ffffff; /* cambia el fondo a blanco */
 }
+
+.slide img {
+  filter: grayscale(100%); /* escala de grises por defecto */
+  transition: filter 0.5s ease-in-out; /* animación de transición */
+}
+
+.slide:hover img {
+  filter: grayscale(0%); /* quita la escala de grises al poner el mouse encima */
+}
+
+.slider .slider-track {
+  display: flex;
+  width: calc(240px * 20); /* ancho suficiente para que se puedan recorrer infinitamente /
+  animation: slide 20s linear infinite; / animación de movimiento infinito */
+  }
+  
+  @keyframes slide {
+  0% {
+  transform: translateX(0);
+  }
+  100% {
+  transform: translateX(-50%); /* para que el primer elemento salga y entre el último elemento */
+  }
+  }
+
+  

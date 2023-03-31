@@ -1,1 +1,5 @@
+/* le da color al fondo de la pagina*/
 
+body {
+  background-color: #c2c8ee;
+}

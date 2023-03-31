@@ -1,54 +1,46 @@
-import React, { useState } from 'react';
-import {
-  MDBContainer,
-  MDBNavbar,
-  MDBNavbarBrand,
-  MDBNavbarToggler,
-  MDBNavbarNav,
-  MDBNavbarLink,
-  MDBIcon,
-  MDBCollapse
-} from 'mdb-react-ui-kit';
+import React, { useState, useEffect } from 'react';
+import '../css/nadvar.css';
+import logo from '../img/nadvar/logo_optimenn.ico';
 
-import Logo from '../img/nadvar/logo_optimenn.ico';
-import {  FormattedMessage } from "react-intl";
+function Navbar() {
+  const [scrollNav, setScrollNav] = useState(false);
 
+  const changeNav = () => {
+    if (window.scrollY >= 80) {
+      setScrollNav(true);
+    } else {
+      setScrollNav(false);
+    }
+  };
 
-export default function App() {
-  const [showNavSecond, setShowNavSecond] = useState(false);
-
-
+  useEffect(() => {
+    window.addEventListener('scroll', changeNav);
+  }, []);
 
   return (
-    <MDBNavbar expand='lg' light bgColor='light'>
-      <MDBContainer fluid>
-      <MDBNavbarBrand href='/'>
-            <img
-              src={Logo}
-              height='40'
-              alt=''
-              loading='lazy'
-            />
-          </MDBNavbarBrand>
-        <MDBNavbarToggler
-          aria-expanded='false'
-          aria-label='Toggle navigation'
-          onClick={() => setShowNavSecond(!showNavSecond)}
-        >
-          <MDBIcon icon='bars' fas />
-        </MDBNavbarToggler>
-        <MDBCollapse navbar show={showNavSecond}>
-          <MDBNavbarNav>
-            <MDBNavbarLink active aria-current='page' href='/Dashboard'>
-            <FormattedMessage id="menu.home" defaultMessage="Home"/>
-            </MDBNavbarLink>
-            <MDBNavbarLink href='/About-Us'><FormattedMessage id="menu.aboutUs" defaultMessage="About Us"/></MDBNavbarLink>
-            <MDBNavbarLink href='/Customers'><FormattedMessage id="menu.customers" defaultMessage="Customers"/></MDBNavbarLink>
-            <MDBNavbarLink href='/News'><FormattedMessage id="menu.news" defaultMessage="News"/></MDBNavbarLink>
-            <MDBNavbarLink href='/Contact-Us'><FormattedMessage id="menu.contactUs" defaultMessage="Contact Us"/></MDBNavbarLink>
-          </MDBNavbarNav>
-        </MDBCollapse>
-      </MDBContainer>
-    </MDBNavbar>
+    <nav className={scrollNav ? 'navbar scroll-nav' : 'navbar'}>
+      <div className="navbar-container">
+        <a href="/" className="navbar-logo"><img src={logo} alt="logo" /></a>
+        <ul className="nav-menu">
+          <li className="nav-item">
+            <a href="/" className="nav-links">Home</a>
+          </li>
+          <li className="nav-item">
+            <a href="/" className="nav-links">About Us</a>
+          </li>
+          <li className="nav-item">
+            <a href="/" className="nav-links">Customers</a>
+          </li>
+          <li className="nav-item">
+            <a href="/" className="nav-links">News</a>
+          </li>
+          <li className="nav-item">
+            <a href="/" className="nav-links">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
   );
 }
+
+export default Navbar;
