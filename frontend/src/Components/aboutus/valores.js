@@ -1,4 +1,4 @@
-//Componente echo por Yessenia
+//Autor: Alma Yessenia
 
 // Importa React y algunos componentes de React Bootstrap
 import React from "react";

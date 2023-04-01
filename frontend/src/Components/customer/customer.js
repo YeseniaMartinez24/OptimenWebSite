@@ -1,4 +1,4 @@
-//Componente echo por Fernando 
+//Autor: Fernando 
 
 import React,{Fragment} from "react"; // Importa React y Fragment desde la biblioteca react
 import "../../css/Casouser.css"; // Importa el archivo CSS de estilo para el componente
@@ -7,13 +7,13 @@ import InfiniteCarousel from "react-leaf-carousel"; // Importa el componente de 
 
 import Button from 'react-bootstrap/Button'; // Importa el componente de botón de la biblioteca react-bootstrap
 
-import uno from "../../img/customers/1.jpg"; // Importa la imagen 1 desde la carpeta de imágenes
-import dos from "../../img/customers/2.jpg"; // Importa la imagen 2 desde la carpeta de imágenes
-import tres from "../../img/customers/3.jpg"; // Importa la imagen 3 desde la carpeta de imágenes
-import cuatro from "../../img/customers/4.jpg"; // Importa la imagen 4 desde la carpeta de imágenes
-import cinco from "../../img/customers/5.jpg"; // Importa la imagen 5 desde la carpeta de imágenes
-import seis from "../../img/customers/6.jpg"; // Importa la imagen 6 desde la carpeta de imágenes
-import siete from "../../img/customers/7.jpg"; // Importa la imagen 7 desde la carpeta de imágenes
+import uno from "../../img/Customers/1.jpg"; // Importa la imagen 1 desde la carpeta de imágenes
+import dos from "../../img/Customers/2.jpg"; // Importa la imagen 2 desde la carpeta de imágenes
+import tres from "../../img/Customers/3.jpg"; // Importa la imagen 3 desde la carpeta de imágenes
+import cuatro from "../../img/Customers/4.jpg"; // Importa la imagen 4 desde la carpeta de imágenes
+import cinco from "../../img/Customers/5.jpg"; // Importa la imagen 5 desde la carpeta de imágenes
+import seis from "../../img/Customers/6.jpg"; // Importa la imagen 6 desde la carpeta de imágenes
+import siete from "../../img/Customers/7.jpg"; // Importa la imagen 7 desde la carpeta de imágenes
 
 
 const Customers = () => { // Define el componente Customers como una función de flecha

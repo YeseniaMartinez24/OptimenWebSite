@@ -1,4 +1,4 @@
-//Componente echo por Yessenia
+//Autor: Alma Yessenia 
 
 import { useState } from 'react'; // Importa el hook 'useState' de React
 import { Carousel } from 'react-bootstrap'; // Importa el componente Carousel de React Bootstrap

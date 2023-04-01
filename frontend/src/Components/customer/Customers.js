@@ -1,14 +1,14 @@
-//Componente echo por fernando 
+//Autor: Fernando 
 
 // Importa la hoja de estilo Pag.css desde una ruta relativa
 import '../../css/Pag.css';
 
 // Importa los componentes Customer y Customs desde las rutas relativas especificadas
-import Customer from '../customer/customer';
-import Customs from '../customer/customs';
+import Customer from './customer';
+import Customs from './customs';
 
 // Define la función customers que devuelve un componente
-function customers() {
+function Customers() {
   // El componente principal contiene un elemento div con una clase App
   return (
     <div className="App">
@@ -51,4 +51,4 @@ function customers() {
 }
 
 // Exporta la función customers como un componente por defecto para ser utilizado en otros archivos
-export default customers;
+export default Customers;

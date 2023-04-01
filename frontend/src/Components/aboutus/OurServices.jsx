@@ -1,6 +1,6 @@
-//Componente echo por Yessenia
+//Autor: Alma Yessenia
 
-import '../../css/services.css'; // importa el archivo CSS para estilos específicos de esta sección
+import '../../css/Services.css'; // importa el archivo CSS para estilos específicos de esta sección
 
 import React from 'react'; // importa la librería React
 import Card from 'react-bootstrap/Card'; // importa el componente Card de la librería React Bootstrap

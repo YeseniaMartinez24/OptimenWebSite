@@ -1,4 +1,4 @@
-/*Componente echo por Abraham*/
+//Autor: Abraham Espinoza
 
 import React, { useContext, useState } from "react"; // Importa React, useContext y useState desde la biblioteca React
 import "../../css/FloatingButton.css"; // Importa el archivo CSS para dar estilo al componente

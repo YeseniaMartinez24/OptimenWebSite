@@ -1,4 +1,4 @@
-//Componente echo por Abraham 
+//Autor: Espinoza Gómez Abraham Salvador
 
 import { useState } from 'react';
 import { Carousel } from 'react-bootstrap';

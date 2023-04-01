@@ -1,7 +1,9 @@
-/*Componente echo por Itzel */
+//Autor: Itzel Alessandra
 
 import React from "react"; // Importa React
-import "../../css/certifications.css"; // Importa el archivo de estilo CSS de las certificaciones
+import "../../css/Certifications.css"; // Importa el archivo de estilo CSS de las certificaciones
+
+
 import esr from "../../img/Home/certifications/esr.png"; // Importa la imagen ESR
 import gto from "../../img/Home/certifications/marca-gto.png"; // Importa la imagen GTO
 import iso from "../../img/Home/certifications/ISO27001.png"; // Importa la imagen ISO27001

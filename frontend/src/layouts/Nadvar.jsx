@@ -1,10 +1,16 @@
-import React, { useState, useEffect } from 'react';
-import '../css/nadvar.css';
-import logo from '../img/nadvar/logo_optimenn.ico';
+//Autor: Espinoza Gomez Abraham Salvador
 
+// Importación de los módulos y componentes necesarios.
+import React, { useState, useEffect } from 'react';
+import '../css/Nadvar.css'; // Estilos de la barra de navegación.
+import logo from '../img/nadvar/logo_optimenn.ico'; // Ruta de la imagen del logo.
+
+// Declaración del componente Navbar.
 function Navbar() {
+  // Definición del estado inicial scrollNav con el valor false.
   const [scrollNav, setScrollNav] = useState(false);
 
+  // Función para cambiar el estado de scrollNav en base a la posición del scroll.
   const changeNav = () => {
     if (window.scrollY >= 80) {
       setScrollNav(true);
@@ -13,17 +19,22 @@ function Navbar() {
     }
   };
 
+  // Efecto para añadir un event listener al objeto window cuando se monta el componente.
   useEffect(() => {
     window.addEventListener('scroll', changeNav);
   }, []);
 
+  // Renderizado del componente Navbar.
   return (
+    // Clases condicionales en base al valor de scrollNav.
     <nav className={scrollNav ? 'navbar scroll-nav' : 'navbar'}>
       <div className="navbar-container">
-        <a href="/" className="navbar-logo"><img src={logo} alt="logo" /></a>
+        {/* Enlace que lleva al inicio de la página con el logo de la empresa. */}
+        <a href="/Dashboard" className="navbar-logo"><img src={logo} alt="logo" /></a>
+        {/* Lista de enlaces de la barra de navegación. */}
         <ul className="nav-menu">
           <li className="nav-item">
-            <a href="/" className="nav-links">Home</a>
+            <a href="/Dashboard" className="nav-links">Home</a>
           </li>
           <li className="nav-item">
             <a href="/About-Us" className="nav-links">About Us</a>
@@ -43,4 +54,5 @@ function Navbar() {
   );
 }
 
+// Exportación del componente Navbar.
 export default Navbar;

@@ -1,7 +1,7 @@
-/*Componente echo por Abraham*/ 
+//Autor: Abraham Espinoza
 
 import React from "react";
-import "../../css/carru.css";
+import "../../css/Carru.css";
 import { FormattedMessage } from "react-intl";
 
 // Este componente es una función de flecha que representa el carrusel de imágenes de clientes.

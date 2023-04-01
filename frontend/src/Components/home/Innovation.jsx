@@ -1,8 +1,8 @@
-//Componente echo por Carlos
+//Autor: Carlos
 
 // Importar las dependencias y los archivos necesarios
 import React from 'react'; // React es una biblioteca de JavaScript para crear interfaces de usuario.
-import '../../css/innovation.css' // Se importa la hoja de estilos CSS correspondiente.
+import '../../css/Innovation.css' // Se importa la hoja de estilos CSS correspondiente.
 
 import hannover from '../../img/innovation/Hannover_Messe.png'; // Se importa la imagen de la feria Hannover Messe.
 import ana from '../../img/innovation/ana_avatar_XPrize.jpeg'; // Se importa la imagen del concurso ANA Avatar XPrize.

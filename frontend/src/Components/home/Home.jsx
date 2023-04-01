@@ -1,8 +1,9 @@
-/*Componente escho por itzel*/
+//Autor: Itzel Alessandra
 
 import React, { useContext } from "react";
 import uno from "../../img/Home/uno.png";
-import "../../css/home.css"; // Importa hoja de estilo externa
+import "../../css/Home.css"; // Importa hoja de estilo externa
+
 import { FormattedMessage } from "react-intl";
 import { langContext } from "../../context/langContext";
 

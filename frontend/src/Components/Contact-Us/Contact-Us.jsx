@@ -1,7 +1,7 @@
-//Componente echo por Abraham y Yessenia
+//Autor: Alma Yessenia y Abraham Espinoza
 
 import React, { useState, useRef } from "react"; // Importamos React, useState y useRef desde React
-import "../../css/conctact.css"; // Importamos el archivo CSS para el formulario de contacto
+import "../../css/Conctact.css"; // Importamos el archivo CSS para el formulario de contacto
 
 import ReCAPTCHA from "react-google-recaptcha"; // Importamos la librería de ReCAPTCHA para el formulario
 

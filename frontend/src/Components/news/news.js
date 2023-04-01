@@ -1,7 +1,7 @@
-//Componente echo por Abraham
+//Autor: Abraham Espinoza
 
 import React, { useState } from "react"; // Se importa React y useState desde la biblioteca React.
-import "../../css/news.css"; // Se importa un archivo CSS que contiene estilos para la lista de noticias.
+import "../../css/News.css"; // Se importa un archivo CSS que contiene estilos para la lista de noticias.
 
 const newsList = [
   // Se define una lista de noticias con un objeto para cada noticia.
