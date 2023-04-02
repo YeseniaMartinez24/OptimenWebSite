@@ -119,7 +119,9 @@ const Customers = () => {
             alt=""
           />
         </div>
-
+        <div className="slide">
+          <img src="https://optimen.com.mx/media/external/REDHAT_.png" alt="" />
+        </div>
         <div className="slide">
           <img src="https://optimen.com.mx/media/external/TDM.jpg" alt="" />
         </div>

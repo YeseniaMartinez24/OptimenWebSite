@@ -1,9 +1,11 @@
 //Autor: Espinoza Gomez Abraham Salvador
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 // Importación de componentes y módulos necesarios
 import Nadvar from "../layouts/Nadvar";
 import Fotter from "../layouts/Footer";
-import Carrusel from "../Components/aboutus/About-Us";
+//import Carrusel from "../Components/aboutus/About-Us";
 import Valores from "../Components/aboutus/Valores";
 
 // Definición del componente "AboutUs"
@@ -15,7 +17,7 @@ function AboutUs() {
       <>
         <Nadvar />
         {/* Importación del componente "Carrusel" */}
-        < Carrusel />
+        
       </>
       {/* Importación del componente "Valores" */}
       <Valores/>

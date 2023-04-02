@@ -1,5 +1,8 @@
 //Autor: Espinoza Gomez Abraham Salvador
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 import Nadvar from "../layouts/Nadvar"; // importar el layout de navegación
 import Fotter from "../layouts/Footer"; // importar el layout de pie de página
 import Customer from "../Components/customer/customers"; // importar el componente de clientes

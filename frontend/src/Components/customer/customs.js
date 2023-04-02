@@ -7,17 +7,16 @@ import Button from "react-bootstrap/Button"; // Importa el componente Button de 
 
 import InfiniteCarousel from "react-leaf-carousel"; // Importa el componente InfiniteCarousel de la biblioteca 'react-leaf-carousel'
 
-import uno from "../../img/Customers/uno.jpg"; // Importa la imagen 'uno' desde el directorio de imágenes
-import dos from "../../img/Customers/dos.jpg"; // Importa la imagen 'dos' desde el directorio de imágenes
-import tres from "../../img/Customers/tres.jpg"; // Importa la imagen 'tres' desde el directorio de imágenes
-import cuatro from "../../img/Customers/cuatro.jpg"; // Importa la imagen 'cuatro' desde el directorio de imágenes
-import cinco from "../../img/Customers/cinco.jpg"; // Importa la imagen 'cinco' desde el directorio de imágenes
-import seis from "../../img/Customers/seis.jpg"; // Importa la imagen 'seis' desde el directorio de imágenes
-import siete from "../../img/Customers/siete.jpg"; // Importa la imagen 'siete' desde el directorio de imágenes
-import ocho from "../../img/Customers/ocho.jpg"; // Importa la imagen 'ocho' desde el directorio de imágenes
-import nueve from "../../img/Customers/nueve.jpg"; // Importa la imagen 'nueve' desde el directorio de imágenes
-import diez from "../../img/Customers/diez.jpg"; // Importa la imagen 'diez' desde el directorio de imágenes
-
+import uno from "../../img/Customers/uno.jpg"; 
+import dos from "../../img/Customers/dos.jpg"; 
+import tres from "../../img/Customers/Azul.jpg"; 
+import cuatro from "../../img/Customers/cuatro.jpg"; 
+import cinco from "../../img/Customers/United.jpg"; 
+import seis from "../../img/Customers/seis.jpg"; 
+import siete from "../../img/Customers/Endeavor.jpg"; 
+import ocho from "../../img/Customers/Kalitta.jpg"; 
+import nueve from "../../img/Customers/AeroMexico.jpg"; 
+import diez from "../../img/Customers/CopaAir.jpg"; 
 const Customs = () => {
   return (
     <Fragment>

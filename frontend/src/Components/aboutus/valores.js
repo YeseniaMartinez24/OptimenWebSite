@@ -35,8 +35,9 @@ function Valores () {
   
         <div className='card-body'>
           <div className='card-title'>
-            <h3><FormattedMessage id="vall.vis" defaultMessage="VISION"/></h3>
             <hr></hr>
+            <h3><FormattedMessage id="vall.vis" defaultMessage="VISION"/></h3>
+
             <p className='card-text text-secondary'>To be the First option in Software, Technology <br/>
             and Innovation services for the global Airlines in <br/>
             the area of Aeronautical operational control.
@@ -48,8 +49,8 @@ function Valores () {
         
         <div className='card-body'>
             <div className='card-title'>
-              <h3><FormattedMessage id="vall.val" defaultMessage="VALUES"/></h3>
               <hr ></hr>
+              <h3><FormattedMessage id="vall.val" defaultMessage="VALUES"/></h3>
               <p className="card-text text-secondary">
                  Trustworthy <br/>
                  Respect <br/>
